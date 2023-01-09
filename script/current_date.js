@@ -1,3 +1,4 @@
-var currentDate = new Date();
-var currentYear = currentDate.getFullYear();
-document.getElementById("currentYear").innerHTML = currentYear;
+let currentdate = document.lastModified;
+    document.querySelector(".modified"). textContent = "Last Updated: " + currentdate;
+document.querySelector(".currentyear").innerHTML = new Date().getFullYear();
+
