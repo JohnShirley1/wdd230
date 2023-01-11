@@ -32,6 +32,11 @@ header, main, footer {
     max-width: 800px; 
 }
 
+footer {
+    box-shadow: 10px 5px 5px gray;
+
+}
+
 footer, footer a{
     text-align: center;
     background-color: rgb(88, 55, 11);
@@ -56,11 +61,6 @@ header img {
     width: 175px;
     height: 250px;
     grid-column: 1/2;
-}
-
-footer {
-    box-shadow: 10px 5px 5px gray;
-
 }
 
 ul {
