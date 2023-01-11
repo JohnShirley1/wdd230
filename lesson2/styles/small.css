@@ -36,6 +36,8 @@ section {
     border-radius: 8px;
     background-color:hsla(120, 4%, 69%, 0.377);
     margin-bottom: 25px;
+    text-align: center;
+    justify-content: center;
 }
 footer {
     box-shadow: 10px 5px 5px gray;
