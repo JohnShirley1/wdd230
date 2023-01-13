@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:wght@600&family=Righteous&family=Rowdies:wght@300&display=swap');
 main {
     display: grid;
     grid-column-gap: 25px;
@@ -24,7 +25,7 @@ header {
     padding:  15px;
     height: auto;
     width: auto;
-    font-family:'Righteous', cursive;
+    font-family: 'Noto Sans', sans-serif;
     margin-bottom: 25px;
     
 }
