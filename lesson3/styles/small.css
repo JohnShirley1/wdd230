@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------FOOTER---------------------------------------------------------*/
+footer {
+    box-shadow: 10px 5px 5px gray;
+
+}
+
+footer, footer a{
+    text-align: center;
+    background-color: rgb(88, 55, 11);
+    color: white;
+    
+}
+footer p {
+    font-size: 17px;
+}
