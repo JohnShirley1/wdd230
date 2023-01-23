@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans:wght@200&family=Poppins:wght@600&family=Righteous&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora&family=Noto+Sans:wght@200&family=Poppins:wght@600&family=Righteous&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora&family=Noto+Sans:wght@200&family=Poppins:wght@600&family=Righteous&family=Rowdies:wght@300&family=Sofia+Sans&display=swap');
+
 header {
     background-color: #003049;
     display: grid;
     grid-template-columns: 150px auto;
 }
+
+h2 {
+    font-family: 'Sofia Sans', sans-serif;
+}
+p {
+    font-size: 18px;
+    font-family: 'Lora', sans-serif;
+    
+}
+/*-----------------------------------------------------------------Naviation -------------------------------------------------------------*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -14,12 +28,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 30px;
-    font-size: 18px;
+    font-size: 20px;
 }
 nav a:hover {
     background-color: #D62626;
 }
-
+/*------------------------------------------------------------------------Index & target-audience -----------------------------------------------*/
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -59,7 +73,7 @@ nav a:hover {
     grid-column: 1/4;
     display: grid;
     margin: 15px;
-    justify-items: center;
+    justify-items: left;
     
 }
 .welcome {
@@ -77,6 +91,7 @@ nav a:hover {
     border-width: 3px;
     margin: 15px;
     border-radius: 15px;
+    justify-self: end;
 }
 .sofiapic {
     grid-column: 1/2;
@@ -123,13 +138,130 @@ nav a:hover {
     height: 500px;
 }
 .local-shop {
+    grid-column: 1/2;
     height: 250px;
-    width: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.txt21 {
+    grid-column: 2/5;
+    display: grid;
+    margin: 15px;
+    justify-items: center;
+    
+}
+.txt21 h2 {
+    text-align: center;
+    border-bottom: solid #003049;
+    border-width: 2px;
+    width: 450px;
 }
 .counsel-room {
+    grid-column: 4/5;
     height: 250px;
-    width: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
+    display: grid;
+    align-self: center;
 }
+.row-txt-img1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 15px;
+    height: 400px;
+    background-color: #EAE2B7;
+    border: solid #F77F00;
+    border-width: 3px;
+    border-radius: 5px;
+}
+/*------------------------------------------------------------Design Page ----------------------------------------------------------------------------*/
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: center;
+    gap: 10px 10px;
+    margin: 15px;
+}
+.content h2 {
+    text-align: center;
+    border-bottom: solid black;
+    border-width: 2px;
+    align-self: center;
+}
+.content p {
+    text-align: center;
+    margin: 15px;
+}
+.font-card1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    font-family: 'Sofia Sans', sans-serif;   
+}
+.font-card1 p {
+    font-family: 'Sofia Sans', sans-serif;   
+}
+
+.font-card2 {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+}
+.font-card2 h2 {
+    font-family: 'Lora', sans-serif;
+    
+}
+.color-card1 {
+    grid-row: 2/3;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #003049;
+    color: white;
+
+}
+.color-card2 {
+    grid-row: 2/3;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #D62626;
+    color: white;
+
+}
+.color-card3 {
+    grid-row: 2/3;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #F77F00;
+    color: white;
+
+}
+.color-cardb4 {
+    grid-row: 2/3;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #FCBF49;
+}
+.color-cardb5 {
+    grid-row: 2/3;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #EAE2B7;
+}
+
 /*----------------------------------------------------------------------FOOTER---------------------------------------------------------*/
 footer {
     box-shadow: 10px 5px 5px gray;
@@ -144,4 +276,14 @@ footer, footer a{
 }
 footer p {
     font-size: 17px;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
 }
