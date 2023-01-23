@@ -1,11 +1,135 @@
+header {
+    background-color: #003049;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    z-index: +1;
+}
 
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: #D62626;
+}
 
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 80px;
+    z-index: +1;
+    border-radius: 25px;
+}
+#logo_link{   
+    padding-top: 5px;
+    justify-self: left;
+    align-self: center;
+    z-index: +1;
 
+}
+.row-txt-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 15px;
+    height: 300px;
+    background-color: #EAE2B7;
+    border: solid #F77F00;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.txt1 h2 {
+    border-bottom: solid #003049;
+    border-width: 2px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
+.txt1 {
+    grid-column: 1/4;
+    display: grid;
+    margin: 15px;
+    justify-items: center;
+    
+}
+.welcome {
+    grid-column: 4/5;
+    height: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.johnpic {
+    grid-column: 4/5;
+    height: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.sofiapic {
+    grid-column: 1/2;
+    height: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.row-img-txt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 15px;
+    height: 300px;
+    background-color: #EAE2B7;
+    border: solid #F77F00;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.txt2 {
+    grid-column: 2/5;
+    display: grid;
+    margin: 15px;
+    justify-items: center;
+    
+}
+.txt2 h2 {
+    text-align: center;
+    border-bottom: solid #003049;
+    border-width: 2px;
+    width: 300px;
+}
+.utica-logo {
+    grid-column: 1/2;
+    height: 250px;
+    border: solid black;
+    border-width: 3px;
+    margin: 15px;
+    border-radius: 15px;
 
-
-
-
+}
+.why-commerce {
+    display: grid;
+    height: 500px;
+}
+.local-shop {
+    height: 250px;
+    width: 250px;
+}
+.counsel-room {
+    height: 250px;
+    width: 250px;
+}
 /*----------------------------------------------------------------------FOOTER---------------------------------------------------------*/
 footer {
     box-shadow: 10px 5px 5px gray;
