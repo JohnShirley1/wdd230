@@ -108,5 +108,8 @@
     .info-box p, .info-box h3 {
         font-size: 20px;
     }
+    .city {
+        height: 67%;
+    }
     
 }
