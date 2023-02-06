@@ -86,4 +86,8 @@
     .city {
         height: 100%;
     }
+    .spot-img {
+        height:60%;
+        width: 60%;
+    }
 }

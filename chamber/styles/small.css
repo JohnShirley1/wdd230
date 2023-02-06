@@ -134,8 +134,10 @@ section h2 {
 .spotlight-box {
     display: grid;
     grid-column: auto;
+    height: 800px;
 }
 .spotlight1, .spotlight2, .spotlight3 {
+    display: grid;
     border: solid black;
     border-width: 3px;
     margin: 10px;
@@ -188,6 +190,12 @@ section h2 {
     border-bottom:  2px solid #003049;
     
 
+}
+.spot-img {
+    height:35%;
+    width: 25%;
+    justify-self: center;
+    margin-top: 25px;
 }
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
