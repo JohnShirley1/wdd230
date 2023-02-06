@@ -30,7 +30,9 @@
         grid-template-rows: 400px 400px 400px;
     }
     .hero {
+        display: grid;
         height: 815px;
+        width: 97%;
         grid-column: 2/3;
         grid-row: 1/3;
     }
@@ -84,7 +86,9 @@
         margin: 15px;
     }
     .city {
+        display: grid;
         height: 100%;
+        width: 100%;
     }
     .spot-img {
         height:60%;

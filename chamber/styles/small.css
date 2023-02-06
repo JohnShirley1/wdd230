@@ -192,10 +192,13 @@ section h2 {
 
 }
 .spot-img {
-    height:35%;
+    height:50%;
     width: 25%;
     justify-self: center;
     margin-top: 25px;
+}
+.welcome {
+    position: absolute;
 }
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
