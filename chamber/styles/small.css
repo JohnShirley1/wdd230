@@ -165,11 +165,15 @@ section h2 {
     background-color: #F77F00;
     color: white;
 }
-.spot-p {
+.spot-p1 {
     text-align: center;
     justify-self: center;
     font-size: 20px;
     border-bottom: solid #003049;
+    align-self: end;
+}
+.spot-p2 {
+    text-align: center;
 }
 .soda-shack {
     text-align: center;
@@ -178,7 +182,13 @@ section h2 {
 
 
 }
+.weather h3 {
+    text-align: right;
+    align-self: end;
+    border-bottom:  2px solid #003049;
+    
 
+}
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
     display: grid;
