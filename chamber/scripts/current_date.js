@@ -50,3 +50,19 @@ const hambutton = document.querySelector('.ham');
 hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive');
 })
+
+/*-------------------------------------------------------- Dynamic Windchill -------------------------------------------------------------- */
+
+const temp = parseFloat(document.querySelector('.t').textContent);
+const windspeed = parseFloat(document.querySelector('.ws').textContent);
+
+
+let windchill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+
+console.log(windchill);
+if (temp<= 50 && windspeed >= 3) {
+    document.querySelector('.wc').innerHTML = windchill + "&#176;F";
+}
+else {
+  document.querySelector('.wc').innerHTML = 'N/A';
+}

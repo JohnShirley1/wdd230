@@ -199,6 +199,26 @@ section h2 {
 }
 .welcome {
     position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.join-c {
+    border-radius: 25px;
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    bottom: 15px;
+    right: 35px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #F77F00;
+}
+.join-c:hover {
+    background-color: #F77F00;
+    color: white;
+}
+.hero {
+    position: relative;
 }
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
