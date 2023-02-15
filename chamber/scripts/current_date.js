@@ -40,9 +40,7 @@ if (d.getDay() == 1 || d.getDate() == 2) {
     document.querySelector(".meeting").style.display = "none"
 };
 
-
 /*----------------------------------------------------- Hamburger menu -------------------------------------------------------------------------*/
-datefield.innerHTML = `<em>${fulldate}</em>`;
 
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
@@ -65,4 +63,10 @@ if (temp<= 50 && windspeed >= 3) {
 }
 else {
   document.querySelector('.wc').innerHTML = 'N/A';
+}
+
+/*------------------------------------------------------Storage local ------------------------------------------------------------------------*/
+
+if (!localStorage.getItem('lastvist')) {
+  localStorage.getItem('lastvisit', date.now())
 }
