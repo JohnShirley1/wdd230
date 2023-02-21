@@ -20,32 +20,66 @@ function loginTime() {
     localStorage.setItem('lastLogin', date);
 };
 
+// const images = document.querySelectorAll('[data-src]');
+// const options = {threshold: [0.5]};
+
+// function preloadImage(img) {
+//     const source = img.getAttribute('data-src');
+//     if(!source){
+//         return;
+//     }
+//     img.src = source;
+// }
+
+// const io = new IntersectionObserver(
+//     (entries, io) => {
+//         entries.forEach(entry => {
+//             if(entry.isIntersecting){
+//                 preloadImage(entry.target); //call a function send in the image that is currently intersecting
+//                 io.unobserve(entry.target); //stop observing the image
+//             } else {
+//                 return;
+//             }
+//             //console.log(entries);
+//         });
+//     },
+//     options
+// );
+
+images.forEach(images =>{
+    io.observe(images);
+});
+
 const images = document.querySelectorAll('[data-src]');
-const options = {threshold: [0.5]};
+   
+const options =  {threshold: .5};
 
 function preloadImage(img) {
     const source = img.getAttribute('data-src');
-    if(!source){
+    if(!source) {
         return;
     }
     img.src = source;
 }
 
-const io = new IntersectionObserver(
-    (entries, io) => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting){
-                preloadImage(entry.target); //call a function send in the image that is currently intersecting
-                io.unobserve(entry.target); //stop observing the image
-            } else {
+const io = new IntersectionObserver (
+    (entries)=> {
+        entries.forEach(entry=> {
+            if(!entry.isIntersecting) {
                 return;
+            } else {
+                preloadImage(entry.target);
+                io.unobserve(entry.target);
             }
-            //console.log(entries);
-        });
+            console.log(entries);
+        })
+        
+        
     },
     options
 );
 
-images.forEach(images =>{
-    io.observe(images);
-});
+images.forEach (img => {
+    io.observe(img);
+})
+
