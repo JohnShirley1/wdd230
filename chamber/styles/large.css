@@ -94,5 +94,15 @@
         height:60%;
         width: 60%;
     }
+
+    .gallery-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+
+    .card {
+        padding: 10px 10px;
+        width: 95%;
+    }
+    
    
 }

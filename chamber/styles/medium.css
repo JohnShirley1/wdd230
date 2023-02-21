@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
     header {
         grid-template-columns:150px 1fr 1fr 100px ;
        
@@ -116,6 +116,16 @@
     .spot-img {
         height:65%;
         width: 45%;
+    }
+
+    .gallery-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .card {
+        width: 80%;
+        margin: 10px 10px;
     }
     
 }
