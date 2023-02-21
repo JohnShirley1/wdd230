@@ -21,7 +21,7 @@ function loginTime() {
 };
 
 const images = document.querySelectorAll('[data-src]');
-const options = {threshold: [0.9]};
+const options = {threshold: [0.5]};
 
 function preloadImage(img) {
     const source = img.getAttribute('data-src');
