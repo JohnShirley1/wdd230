@@ -46,9 +46,9 @@ function loginTime() {
 //     options
 // );
 
-images.forEach(images =>{
-    io.observe(images);
-});
+// images.forEach(images =>{
+//     io.observe(images);
+// });
 
 const images = document.querySelectorAll('[data-src]');
    
