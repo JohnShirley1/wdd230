@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utica Chamber of Commerce</title>
+    <link rel="icon" href="icons8-city-buildings-50.png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/discover.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class='logo' src="images/Utica.png" alt="Uitca logo">
+        </a>
+        <div class="title-box">
+            <h1>Utica</h1>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="icon-box">
+            <img class="icon" src="images/facebook.svg" alt="facebook icon">
+            <img class="icon" src="images/linkedin.svg" alt="linkedin icon">
+        </div>
+        <nav class="navigation">
+            <a class="ham" href="#">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="index.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="index.html">Contact</a>
+        </nav>
+            <h2 id="day1"></h2>
+    </header>
+    
+    <main>
+        <h2>Join The Chamber Application</h2>
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name *:</label>
+            <input id="fname" type="text" name="firstName" required>
+            <label for="lname">Last Name *:</label>
+            <input id="lname" type="text" name="lastName" required>
+            <label for="title">Business Title (Only letters must be 7 characters long) * </label>
+            <input id="title" type="text" name="bt" minlength="7" pattern="[A-Za-z -]+" required>
+            <label for="email">Email *:</label>
+            <input id="email" type="email" name="email" placeholder="name@example.com" required>
+            <label for="phone">Phone Number *:</label>
+            <input id="phone" type="tel" name="phone" required>
+            <label for="business">Business Name *:</label>
+            <input id="business" type="text" required>
+            <label for="memberships">Membership Level </label>
+            <select id="memberships" name="levels">
+                <option value="NP Membership">NP Membership</option>
+                <option value="canada">Bronze Membership</option>
+                <option value="usa">Silver Membership</option>
+                <option value="goldMembership">Gold Membership</option>
+              </select>
+            <label for="member">Enter your Desired Membership</label>
+              <div id="radio">
+                <input id="member" id="one" type="radio" name="mlevel">
+                <label for="one">Level 1</label>
+              </div>
+            
+            <label for="description">Business Description </label>
+            <textarea id="description"></textarea>
+            <input type="hidden" name="todaydate" value="CurrentDate">
+            <input type="submit" value="submit">
+        </form>
+
+    </main>
+    <footer>
+        <a id="flogo_link" href="index.html">
+            <img class='flogo' src="images/Utica.png" alt="Uitca logo">
+        </a>
+        <div class="ftitle-box">
+            <h1>Utica</h1>
+            <h3>Chamber of Commerce</h3>
+            <p>1426 Main St., Utica, MI 48316 </p>
+        </div>
+        <div class="info-box">
+            <h3>Contact Us</h3>
+            <p>utiticachamber.org</p>
+            <p>(586) 121-3646</p>
+        </div>
+        <div class="ftag">
+            <p> &copy; <span class ="currentyear"></span> Utica Chamber | <span class="name">Taylor Shirley </span>| WDD 230 Project | <span class="modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

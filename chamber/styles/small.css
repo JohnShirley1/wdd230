@@ -296,10 +296,18 @@ border: 1px solid #ccc;
 * {
   box-sizing: border-box;
 }
-
-
-
 .card {
     width: 95%;
     margin: 10px;
+}
+/*----------------------------------------------------Form Page -----------------------------------------------------------------------------------*/
+label, input {
+    display: block;
+    font-size: 1.5em;
+}
+label {
+    margin-top: 20px;
+}
+input {
+    height: 45px;
 }
