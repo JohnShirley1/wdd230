@@ -39,7 +39,7 @@
     </header>
     
     <main>
-        <h2>Join The Chamber Application</h2>
+        <h2 class="form-title">Join The Chamber Application</h2>
         <form method="get" action="thankyou.html">
             <label for="fname">First Name *:</label>
             <input id="fname" type="text" name="firstName" required>
@@ -60,16 +60,10 @@
                 <option value="usa">Silver Membership</option>
                 <option value="goldMembership">Gold Membership</option>
               </select>
-            <label for="member">Enter your Desired Membership</label>
-              <div id="radio">
-                <input id="member" id="one" type="radio" name="mlevel">
-                <label for="one">Level 1</label>
-              </div>
-            
             <label for="description">Business Description </label>
             <textarea id="description"></textarea>
             <input type="hidden" name="todaydate" value="CurrentDate">
-            <input type="submit" value="submit">
+            <input class="submit" type="submit" value="submit">
         </form>
 
     </main>

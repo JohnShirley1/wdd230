@@ -1,3 +1,6 @@
+main {
+    display: grid;
+}
 
 header {
     background-color: #003049;
@@ -308,6 +311,25 @@ label, input {
 label {
     margin-top: 20px;
 }
+select {
+    height: 45px;
+}
 input {
     height: 45px;
+}
+form {
+    display: grid;
+    justify-items: center;
+    background-color: #F77F00;
+    width: 600px;
+    justify-self: center;
+}
+
+.form-title {
+    width: 600px;
+    justify-self: center;
+    font-size: 35px;
+}
+.submit {
+    margin: 15px;
 }
