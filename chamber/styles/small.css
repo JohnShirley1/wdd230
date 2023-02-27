@@ -321,12 +321,27 @@ form {
     display: grid;
     justify-items: center;
     background-color: #F77F00;
-    width: 600px;
     justify-self: center;
 }
-
+.join-box {
+    background-color: #EAE2B7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mem-level-title {
+    justify-self: center;
+    font-size: 35px;
+}
+.mem-descrip {
+    font-size: 20px;
+    margin: 15px;
+}
+.mem-title {
+    font-size: 33px;
+    text-align: center;
+    padding: 15px;
+}
 .form-title {
-    width: 600px;
     justify-self: center;
     font-size: 35px;
 }

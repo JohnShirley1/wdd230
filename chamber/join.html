@@ -39,33 +39,80 @@
     </header>
     
     <main>
-        <h2 class="form-title">Join The Chamber Application</h2>
-        <form method="get" action="thankyou.html">
-            <label for="fname">First Name *:</label>
-            <input id="fname" type="text" name="firstName" required>
-            <label for="lname">Last Name *:</label>
-            <input id="lname" type="text" name="lastName" required>
-            <label for="title">Business Title (Only letters must be 7 characters long) * </label>
-            <input id="title" type="text" name="bt" minlength="7" pattern="[A-Za-z -]+" required>
-            <label for="email">Email *:</label>
-            <input id="email" type="email" name="email" placeholder="name@example.com" required>
-            <label for="phone">Phone Number *:</label>
-            <input id="phone" type="tel" name="phone" required>
-            <label for="business">Business Name *:</label>
-            <input id="business" type="text" required>
-            <label for="memberships">Membership Level </label>
-            <select id="memberships" name="levels">
-                <option value="NP Membership">NP Membership</option>
-                <option value="canada">Bronze Membership</option>
-                <option value="usa">Silver Membership</option>
-                <option value="goldMembership">Gold Membership</option>
-              </select>
-            <label for="description">Business Description </label>
-            <textarea id="description"></textarea>
-            <input type="hidden" name="todaydate" value="CurrentDate">
-            <input class="submit" type="submit" value="submit">
-        </form>
-
+        <div class="join-box">
+            <div class="form-box">
+                <h2 class="form-title">Join The Chamber Application</h2>
+                <form method="get" action="thankyou.html">
+                    <label for="fname">First Name *:</label>
+                    <input id="fname" type="text" name="firstName" required>
+                    <label for="lname">Last Name *:</label>
+                    <input id="lname" type="text" name="lastName" required>
+                    <label for="title">Business Title (Only letters must be 7 characters long) * </label>
+                    <input id="title" type="text" name="bt" minlength="7" pattern="[A-Za-z -]+" required>
+                    <label for="email">Email *:</label>
+                    <input id="email" type="email" name="email" placeholder="name@example.com" required>
+                    <label for="phone">Phone Number *:</label>
+                    <input id="phone" type="tel" name="phone" required>
+                    <label for="business">Business Name *:</label>
+                    <input id="business" type="text" required>
+                    <label for="memberships">Membership Level </label>
+                    <select id="memberships" name="levels">
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="canada">Bronze Membership</option>
+                        <option value="usa">Silver Membership</option>
+                        <option value="goldMembership">Gold Membership</option>
+                    </select>
+                    <label for="description">Business Description </label>
+                    <textarea id="description"></textarea>
+                    <input type="hidden" name="todaydate" value="CurrentDate">
+                    <input class="submit" type="submit" value="submit">
+                </form>
+            </div>
+            <div class="mem-box">
+                <h2 class="mem-level-title">Membership level Benefits</h2>
+                <section>
+                    <h3 class="mem-title">NP Membership</h3>
+                    <p class="mem-descrip">For non Profit Organizations and there is no fee</p>
+                </section>
+                <section>
+                    <h3 class="mem-title">Bronze Membership</h3>
+                    <p class="mem-descrip">15% Discount on Events
+                        <br>
+                        10% Discount on Advertisng
+                        <br>
+                        Fee of $50 per Month
+                    </p>
+                </section>
+                <section>
+                    <h3 class="mem-title">Silver Membership</h3>
+                    <p class="mem-descrip">
+                        25% Discount on Events
+                        <br>
+                        15% Discount on Advertisng
+                        <br>
+                        Free Participation in the trade Fair
+                        <br>
+                        Fee $100 per Month
+                    </p>
+                </section>
+                <section>
+                    <h3 class="mem-title">Gold Membership</h3>
+                    <p class="mem-descrip">
+                        50% Dsicount on Events
+                        <br>
+                        50% Discount on Advertisng
+                        <br>
+                        Free Participation in the Trade Fair
+                        <br>
+                        5 Free Featured Ads per year
+                        <br>
+                        1 Free Training per Quarter
+                        <br>
+                        Fee of $250 per Month
+                    </p>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
         <a id="flogo_link" href="index.html">
