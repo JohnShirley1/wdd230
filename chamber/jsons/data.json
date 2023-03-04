@@ -1,88 +1,67 @@
 {
     "directory": [
       {
-        "name": "Joseph's Business Analytics",
-        "address": "1 Main St. Saupark ID, 83408",
-        "phone": "555-5565",
-        "website": "vermont.com",
-        "image": "/images/cuisine.jpg"
+        "name": "Tivoli's Pizzeria",
+        "address": "45257 Van Dyke Avenue, Utica, MI 48317",
+        "phone": "586-731-5566",
+        "website": "https://www.tivolispizzeria.com/",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/pizzarea.jpg"
       },
       {
-        "name": "Brigham's Construction Co.",
-        "address": "2 Main St. Saupark ID, 83408",
-        "phone": "555-5575",
-        "website": "Brighamsconstruction.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "name": "Custard Spot",
+        "address": "46919 Van Dyke Ave, Utica, MI, 48317",
+        "phone": "586-731-3677",
+        "website": "https://m.facebook.com/profile.php?id=100054580774620&eav=AfbAW1Pl3KsGALXmx17DRsXxmVB30g5K2sADIqG0Lvlo01wf8IoCNMmtRAgJDO4UCkg&paipv=0&_rdr",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/custard-spot.jpg"
       },
       {
-        "name": "John's Chiropractic",
-        "address": "3 Main St. Saupark ID, 83408",
-        "phone": "555-5585",
-        "website": "chiropracticdoneright.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "name": "Avi'ari",
+        "address": "35563 Van Dyke Avenue, Utica, MI 48317",
+        "phone": "586-743-6932",
+        "website": "avi-ari.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/cuisine.jpg"
       },
       {
-        "name": "Wilford and Sons Carpentry",
-        "address": "4 Main St. Saupark ID, 83408",
-        "phone": "555-5595",
-        "website": "wilfordcarpenters.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "name": "Unwined Winery",
+        "address": "27190 Van Dyke Avenue, Utica, MI 48317",
+        "phone": "586-823-4028",
+        "website": "unwined-winery.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/wine.png"
       },
       {
-        "name": "Lorenzo Law LLC",
-        "address": "5 Main St. Saupark ID, 83408",
-        "phone": "555-5605",
-        "website": "Lorenzolawfirst.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "name": "Da Francescos",
+        "address": "35563 Van Dyke Avenue, Utica, MI 48317",
+        "phone": "586-128-1953",
+        "website": "dafrancescos.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/italian.jpg"
       },
       {
-        "name": "Smith and Ballard Accounting",
-        "address": "6 Main St. Saupark ID, 83408",
-        "phone": "555-5615",
-        "website": "theonlyaccountant.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "Sushi Yes!",
+        "address": "32835 Van Dyke Avenue, Utica, MI 48317",
+        "phone": "586-555-5615",
+        "website": "sushi-yes.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/sushi.jpg"
       },
       {
-        "name": "Heber's Tire Shop",
-        "address": "7 Main St. Saupark ID, 83408",
-        "phone": "555-5625",
-        "website": "hebertire.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "Utica Carshow",
+        "address": "35 Main St. Utica MI, 48317",
+        "phone": "586-355-5735",
+        "website": "utica-carshow.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/car-show.jpg"
       },
       {
-        "name": "George's Realty Agency",
-        "address": "8 Main St. Saupark ID, 83408",
-        "phone": "555-5635",
-        "website": "georgerealtygroup.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "name": "Jimmey John's Baseball Field",
+        "address": "8 Main St. Utica MI, 48317",
+        "phone": "587-222-5335",
+        "website": "baseball.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/baseballfield.jpg"
       },
       {
-        "name": "David's Public Library",
-        "address": "9 Main St. Saupark ID, 83408",
-        "phone": "555-5645",
-        "website": "davidlibrary.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
-      },
-      {
-        "name": "Saupark Community Bank",
-        "address": "10 Main St. Saupark ID, 83408",
-        "phone": "555-5655",
-        "website": "bankofsaupark.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
-      },
-      {
-        "name": "Lee's Kitchen",
-        "address": "11 Main St. Saupark ID, 83408",
-        "phone": "555-5665",
-        "website": "leesfinefoods.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
-      },
-      {
-        "name": "Spencer Grocery",
-        "address": "12 Main St. Saupark ID, 83408",
-        "phone": "555-5675",
-        "website": "spencergrocery.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+        "name": "Utica High School",
+        "address": "Eatmoore Lane, Utica MI, 48317",
+        "phone": "586-444-7766",
+        "website": "utica-high.com",
+        "imageurl": "https://johnshirley1.github.io/wdd230/chamber/images/utica-high.jpeg"
       }
     ]
   }
