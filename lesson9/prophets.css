@@ -18,3 +18,27 @@ section {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #3a3737;
 }
+#cards, #list {
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+
+}
+td {
+    padding: 5px;
+    display: block; /*table-cell for large view*/
+}
+tr:nth-last-of-type(even) {
+    background-color: #ccc;
+}
+table a {
+    color: navy;
+}
