@@ -1,3 +1,9 @@
+// fetch('https://johnshirley1.github.io/wdd230/chamber/jsons/data.json')
+// Responsive Hamburger Menu
+const nav = document.querySelector('.navigation');
+nav.addEventListener('click', ()=>
+{nav.classList.toggle('shown')});
+
 fetch('https://johnshirley1.github.io/wdd230/chamber/jsons/data.json')
   .then(function (response) {
     return response.json();
