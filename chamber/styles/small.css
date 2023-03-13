@@ -304,6 +304,9 @@ footer p, footer h3 {
     border-width: 1px;
 }
 
+.mem-box section {
+    height: 250px;
+}
 /*-------------------------------------------------------------- Discover page ----------------------------------------------------------------------*/
 .gallery{
 border: 1px solid #ccc;

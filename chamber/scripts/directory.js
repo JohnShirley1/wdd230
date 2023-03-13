@@ -1,4 +1,4 @@
-// fetch('https://johnshirley1.github.io/wdd230/chamber/jsons/data.json')
+
 // Responsive Hamburger Menu
 const nav = document.querySelector('.navigation');
 nav.addEventListener('click', ()=>
