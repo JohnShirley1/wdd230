@@ -127,5 +127,12 @@
         width: 80%;
         margin: 10px 10px;
     }
+    #weathericon {
+        width: 55%;
+        height: 55%;
+    }
+    .weather-box {
+        padding-bottom: 0px;
+    }
     
 }

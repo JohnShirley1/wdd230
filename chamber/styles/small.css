@@ -202,7 +202,7 @@ section h2 {
 
 
 }
-.weather h3 {
+#condition {
     text-align: right;
     align-self: end;
     border-bottom:  2px solid #003049;
@@ -238,6 +238,33 @@ section h2 {
 .hero {
     position: relative;
 }
+
+.weather-box {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 35px;
+}
+#weathericon {
+    width: 25%;
+    height: 25%;
+}
+#condition {
+    font-size: 25px;
+    text-align: center;
+}
+#temp {
+    font-size: 30px;
+}
+.degrees {
+    font-size: 30px;
+
+}
+.weather-p {
+    font-size: 20px;
+}
+
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
     display: grid;
