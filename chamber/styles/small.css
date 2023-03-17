@@ -440,11 +440,16 @@ th, td {
 padding: 7px 15px;
 }
 td {
+display: block;
 text-align: center;
 font-family: 'Merriweather Sans', sans-serif;
 }
 table tr:nth-child(even) {
 background-color: #EAE2B7;
+}
+.tableDirectory {
+    border: #003049 solid 1px;
+    border-radius: 25px;
 }
 #cardview {
     text-align: center;
