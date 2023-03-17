@@ -269,10 +269,11 @@ section h2 {
 footer {
     display: grid;
     background-color: #003049;
-    justify-items: center;
+    grid-template-rows: 2;
 }
 footer p, footer h3 {
     color: white;
+    text-align: center;
 }
 .flogo-link {
     padding-top: 5px;
@@ -302,10 +303,32 @@ footer p, footer h3 {
 .ftag {
     border-top: solid #F77F00;
     border-width: 1px;
+    grid-row: 4;
 }
-
+.fbox {
+    display: flex;
+    justify-content: center;
+    grid-row: 1;
+}
+.join-box {
+    background-color: #EAE2B7;
+    display: grid;
+    grid-template-rows: 2;
+    
+}
 .mem-box section {
     height: 250px;
+    width: 350px;
+
+}
+.mem-box {
+    grid-row: 2;
+    width: 350px;
+    justify-self: center;
+}
+.form-box {
+    justify-self: center;
+    width: 600px;
 }
 /*-------------------------------------------------------------- Discover page ----------------------------------------------------------------------*/
 .gallery{
@@ -318,7 +341,7 @@ border: 1px solid #ccc;
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .desc {
@@ -353,11 +376,8 @@ form {
     background-color: #F77F00;
     justify-self: center;
 }
-.join-box {
-    background-color: #EAE2B7;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+
 .mem-level-title {
     justify-self: center;
     font-size: 35px;

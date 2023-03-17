@@ -97,12 +97,13 @@
     }
     .ftitle-box {
         align-self: center;
-        justify-self: start;
+        justify-self: right;
         margin: 20px;
     }
     .info-box {
         align-self: center;
-        justify-self: center
+        justify-self: left;
+        padding-left: 100px;
     }
     .info-box p, .info-box h3 {
         font-size: 20px;
@@ -133,6 +134,15 @@
     }
     .weather-box {
         padding-bottom: 0px;
+    }
+    .mem-box {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .join-box {
+        grid-template-rows: 2;
+        grid-template-columns: 2;
+        
     }
     
 }
