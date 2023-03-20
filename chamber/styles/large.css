@@ -80,11 +80,13 @@
     .event {
         grid-column: 1/2;
         grid-row: 1/2;
+        
     }
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
         margin: 15px;
+        height: 400px;
     }
     .city {
         display: grid;
@@ -92,8 +94,8 @@
         width: 100%;
     }
     .spot-img {
-        height:60%;
-        width: 60%;
+        height:55%;
+        width: 50%;
     }
 
     .gallery-box {

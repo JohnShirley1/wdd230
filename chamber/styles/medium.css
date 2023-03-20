@@ -74,7 +74,7 @@
     .event {
         display: grid;
         grid-column: 1/2;
-        height: 370px;
+        height: 400px;
         grid-row: 5/6;
 
     }

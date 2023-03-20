@@ -19,6 +19,8 @@ p {
 h2 {
     margin: 10px;
     text-align: center;
+    text-decoration: underline;
+    padding: 10px;
 }
 h3 {
     margin: 10px;
@@ -219,6 +221,7 @@ section h2 {
     position: absolute;
     top: 15px;
     left: 15px;
+    text-decoration: underline;
 }
 .join-c {
     border-radius: 25px;
