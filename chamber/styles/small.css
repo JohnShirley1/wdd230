@@ -267,7 +267,12 @@ section h2 {
 .weather-p {
     font-size: 20px;
 }
+.thankyou {
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 310px;
 
+}
 /*----------------------------------------------- Footer --------------------------------------------------------------------------------*/
 footer {
     display: grid;
