@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
+    <script defer src="jscripts/modifieddate.js"></script>
+
 </head>
 <body>
     <header>
@@ -21,7 +23,125 @@
     </header>
 
     <main>
+        <h1 class="fresh-title">Keep it Fresh and Mix it Your Way!</h1>
+        <div class="form-box">
+            <h2>Mix Here!</h2>
+            <form method="get" action="">
+                <label for="name">Name:*</label>
+                <input id="name" type="text" name="name" required>
+                <label for="email">Email:*</label>
+                <input id="email" type="text" name="email" required>
+                <label for="phone">Phone:*</label>
+                <input id="phone" type="text" name="phone" required>
+                <label for="fruit1">1st Fruit:</label> /*--------------------------------------Fruit1 Drop Down*/
+                <select name="fruit1" id="fruit1">
+                <option value="apple">Apple</option>
+                <option value="apricot">Apricot</option>
+                <option value="blackberry">Blackberry</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="cherry">Cherry</option>
+                <option value="orange">Orange</option>
+                <option value="dragonfruit">Dragonfruit</option>
+                <option value="peach">Peach</option>
+                <option value="passionfruit">Passionfruit</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="raspberry">Raspberry</option>
+                <option value="mango">Mango</option>
+                </select>
+                <label for="fruit2">2nd Fruit:</label> /*--------------------------------------Fruit2 Drop Down*/
+                <select name="fruit1" id="fruit1">
+                <option value="apple">Apple</option>
+                <option value="apricot">Apricot</option>
+                <option value="blackberry">Blackberry</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="cherry">Cherry</option>
+                <option value="orange">Orange</option>
+                <option value="dragonfruit">Dragonfruit</option>
+                <option value="peach">Peach</option>
+                <option value="passionfruit">Passionfruit</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="raspberry">Raspberry</option>
+                <option value="mango">Mango</option>
+                </select>
+                <label for="fruit3">3rd Fruit:</label> /*--------------------------------------Fruit3 Drop Down*/
+                <select name="fruit1" id="fruit1">
+                <option value="apple">Apple</option>
+                <option value="apricot">Apricot</option>
+                <option value="blackberry">Blackberry</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="cherry">Cherry</option>
+                <option value="orange">Orange</option>
+                <option value="dragonfruit">Dragonfruit</option>
+                <option value="peach">Peach</option>
+                <option value="passionfruit">Passionfruit</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="raspberry">Raspberry</option>
+                <option value="mango">Mango</option>
+                </select>
+                <label for="instructions">Any Special Instrustions?</label>
+                <textarea name="instructions" id="instructions" cols="6" rows="30"></textarea>
+                <input type="hidden" name="todaydate" value="CurrentDate">
+                <input class="submit" type="submit" value="submit">
+            </form>
+        </div>
 
+        <div class="nutrion-box">
+            <div class="nutrition-facts-carbo">
+                <div class="nutri-box">
+                    <h2>Carbohydrates</h2>
+                    <div class="circle">
+                        <h2 class="nutri-input-carbo"></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nutrition-facts-pro">
+                <div class="nutri-box">
+                    <h2>Protein</h2>
+                    <div class="circle">
+                        <h2 class="nutri-input-pro"></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nutrition-facts-calo">
+                <div class="nutri-box">
+                    <h2>Calories</h2>
+                    <div class="circle">
+                        <h2 class="nutri-input-calo"></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nutrition-facts-fat">
+                <div class="nutri-box">
+                    <h2>Fat</h2>
+                    <div class="circle">
+                        <h2 class="nutri-input-fat"></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nutrition-facts-sug">
+                <div class="nutri-box">
+                    <h2>Sugar</h2>
+                    <div class="circle">
+                        <h2 class="nutri-input-sug"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thanks-box">
+            <h2>Thank you for your Order</h2>
+            <h3>Procced on **INPUT Curent Date**</h3>
+        </div>
     </main>
 
     <footer>

@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
-</head>
+    <script defer src="jscripts/map-pin.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <script defer src="jscripts/modifieddate.js"></script>
+</head> 
 <body>
     <header>
         <div class="nav-bar">
@@ -21,7 +24,34 @@
     </header>
 
     <main>
+        <section class="hero-sec">
+            <img class="hero" src="images/farmland.jpg" alt="Hero Image">
+            <div class="history">
+                <h2>Our History</h2>
+                <p>Our small family farm in the countryside of Carlsbad started experimenting with natural farming methods. 
+                    The family had always been passionate about sustainable living and wanted to grow crops without relying on harmful pesticides and fertilizers. 
+                    They discovered that their produce tasted better, had a longer shelf life, and was more nutritious than the produce they had grown with 
+                    conventional methods. We still use the same method we used to farm our produce in 1900s as we do today!</p>
+            </div>
+        </section>
 
+        <section class="mission">
+                <img src="images/fresh-food.jpg" alt="Fresh Produce">
+                <div class="mission-box">
+                    <h2>Our Misson</h2>
+                    <h3>Let's Keep our Fruit Delectable</h3>
+                    <h3>While we are Sustainable</h3>
+                </div>
+        </section>
+
+        <section class="contact-us">
+            <div contact-box>
+                <h2>Contact Us</h2>
+                <h3>Phone: (234) 426-3465</h3>
+                <h3>Email: bountifulfoods@bfoods.com</h3>
+            </div>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+        </section>
 
     </main>
 
@@ -43,7 +73,7 @@
             </div>
         </div>
         <div class="ftag">
-            <p> &copy; <span class ="currentyear"></span> Bountiful Foods | <span class="name">Taylor Shirley </span>| WDD 230 Project | <span class="modified"></span></p>
+            <p> &copy; <span class ="currentyear"></span> Bountiful Foods | <span class="name">Taylor Shirley </span>| WDD 230 Final Project | <span class="modified"></span></p>
         </div>
 
     </footer>
