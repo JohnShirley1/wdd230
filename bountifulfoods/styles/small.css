@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*For Fun Titles*/
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------Navigation--------------------------------------------------------------------*/
+img {
+    width: 100%;
+}
 header {
     background-color: #ffadbcb9;
 }
@@ -93,10 +96,163 @@ a:hover {
 }
 /*---------------------------------------------------------------Home Page-----------------------------------------------------------------------*/
 .hero-sec {
+    position: relative;
     width: 100%;
+    margin-bottom: 25px;
 }
 .hero {
     width: 100%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+.get-free {
+    position: absolute;
+    top: 35%;
+    left: 16%;
+    font-size: 55px;
+    color: rgb(233, 228, 228);
+    text-shadow: #863a6f 1px 0 10px;
+    font-family: "EB Garamond";
+}
+
+
+
+.mix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 150px 0px;
+
+}
+.mix img {
+   width: 450px;
+   place-self: center;
+   border-radius: 100%;
+   -webkit-box-shadow: 6px 14.5px 40.5px 0px #9e4e86;
+   -moz-box-shadow: 6px 14.5px 40.5px 0px #9e4e86;
+   box-shadow: 6px 14.5px 40.5px 0px #9e4e86;
+}
+.mix-txt {
+   place-self: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.mix-txt h2 {
+    font-size: 55px;
+    font-family: Pacifico;
+    display: inline-block;
+    position: relative;
+    color: #863a6f;
+}
+.mix-txt h2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #863a6f;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.mix-txt h2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.mix-txt button {
+    border-radius: 20px;
+    width: 255px;
+    font-size: 32px;
+    text-align: center;
+    font-family: "EB Garamond";
+    border-radius: 4px;
+    background-color: #d989b5;
+    border: none;
+    color: #000;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    display: inline-block;
+    position: relative;
+}
+.mix-txt button::after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+.mix-txt button:hover {
+    padding-right: 24px;
+    padding-left:8px;
+}
+.mix-txt:hover::after {
+    opacity: 1;
+    right: 10px;
+}
+
+
+
+.count-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 150px 0px;
+}
+.count-txt {
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.count-txt h2 {
+     font-size: 55px;
+     font-family: Pacifico;
+     display: inline-block;
+     position: relative;
+     color: #863a6f;
+}
+.count-txt h2::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: #863a6f;
+     transform-origin: bottom right;
+     transition: transform 0.25s ease-out;
+}
+.count-txt h2:hover::after {
+     transform: scaleX(1);
+     transform-origin: bottom left;
+}
+.count-txt h3{
+    display: block;
+    font-size: 120px;
+    font-family: "EB Garamond";
+    margin: 50px 85px;
+}
+.circle-txt {
+    background-image: linear-gradient(#863A6F, #975c8d, #d989b5, #ffadbc, #ff7979);
+    border-radius: 150px;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+.count-sec img {
+    border-radius: 25px;
+
+    width: 65%;
+    place-self: center;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
