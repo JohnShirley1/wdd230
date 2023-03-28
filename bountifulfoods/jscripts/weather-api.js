@@ -4,12 +4,12 @@ const getWeather = async () => {
     const data = await response.json();
     console.log(data);
     let t = data.currentConditions.temp;
-    document.querySelector('#temp').textContent = t;
+    document.querySelector('.temp').textContent = t;
     let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
-    document.querySelector('#humid').textContent = data.currentConditions.humidity;
-    document.querySelector('#condition').textContent =  data.currentConditions.conditions;
-    document.querySelector('#weathericon').src = image;
-    document.querySelector('#weathericon').alt= data.currentConditions.conditions + ' icon';
+    document.querySelector('.humid').textContent = data.currentConditions.humidity;
+    document.querySelector('.condition').textContent =  data.currentConditions.conditions;
+    document.querySelector('.weathericon').src = image;
+    document.querySelector('.weathericon').alt= data.currentConditions.conditions + ' icon';
     document.querySelector('#day1').textContent = data.currentConditions.days=0;
 
     // let day2 = data.currentConditions.datetimeEpoch;

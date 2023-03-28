@@ -552,6 +552,7 @@ select {
     margin-left: 46px;
 }
 .thanks-box {
+    display: none;
     grid-column: 1/2;
     align-self: center;
     margin-top: 70px;
