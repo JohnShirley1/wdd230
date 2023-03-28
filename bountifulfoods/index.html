@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
+    <link rel="icon" href="">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script defer src="jscripts/modifieddate.js"></script>
+    <script defer src="/bountifulfoods/jscripts/modifieddate.js"></script>    
+    <script defer src="/bountifulfoods/jscripts/weather-api.js"></script>
 </head>
 <body>
     <header>
@@ -81,45 +83,45 @@
                 <div class="cast-card">
                     <h2>Today</h2>
                     <div class="w-box">
-                        <img src="images/cloudy.png" alt="Weather Condition Icon">
+                        <img id="weathericon" src="images/cloudy.png" alt="Weather Condition Icon">
                         <div class="circle">
-                            <h2 class="degree">25&#176;F</h2>
+                            <h2 class="degree"><span id="temp"></span>&#176;F</h2>
                         </div>
                     </div>
                     
                     <div class="p-box">
-                        <p class="cond-desc">Condition Description</p>
-                        <p class="humid">Humidity</p>
+                        <p id="condition">Condition Description</p>
+                        <p >Humidity:             <span id="humid"></span></p>
                     </div>
                 </div>
 
                 <div class="cast-card">
                     <h2>Today</h2>
                     <div class="w-box">
-                        <img src="images/cloudy.png" alt="Weather Condition Icon">
+                        <img id="weathericon" src="images/cloudy.png" alt="Weather Condition Icon">
                         <div class="circle">
-                            <h2 class="degree">25&#176;F</h2>
+                            <h2 class="degree"><span id="temp"></span>&#176;F</h2>
                         </div>
                     </div>
                     
                     <div class="p-box">
-                        <p class="cond-desc">Condition Description</p>
-                        <p class="humid">Humidity</p>
+                        <p id="condition">Condition Description</p>
+                        <p >Humidity:             <span id="humid"></span></p>
                     </div>
                 </div>
 
                 <div class="cast-card">
                     <h2>Today</h2>
                     <div class="w-box">
-                        <img src="images/cloudy.png" alt="Weather Condition Icon">
+                        <img id="weathericon" src="images/cloudy.png" alt="Weather Condition Icon">
                         <div class="circle">
-                            <h2 class="degree">25&#176;F</h2>
+                            <h2 class="degree"><span id="temp"></span>&#176;F</h2>
                         </div>
                     </div>
                     
                     <div class="p-box">
-                        <p class="cond-desc">Condition Description</p>
-                        <p class="humid">Humidity</p>
+                        <p id="condition">Condition Description</p>
+                        <p >Humidity:             <span id="humid"></span></p>
                     </div>
                 </div>
 
