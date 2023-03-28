@@ -21,24 +21,27 @@ header {
     align-items: center;
 }
 .nav-bar img {  
-    width: 25%;
+    width: 55%;
     height: 125px;
     border: 1px solid black;
     margin: 8px;
 }
 .nav-bar h1 {
-    margin-left: 75px;
+    margin-left: 15px;
     font-family: Pacifico;
     color: #753462;
-    font-size: 45px;
+    font-size: 25px;
 }
 .navigation {
-    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 55px;
 }
 a {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: #753462;
     font-family: "EB Garamond";
@@ -64,9 +67,9 @@ a:after {
     border-radius: 50%;
     background: transparent;
   }
-a:hover:after {
+/* a:hover:after {
     -webkit-animation: circle 1.5s ease-in forwards;
-}
+} */
 a, a:after, a:before {
     transition: all .5s;
 }
@@ -80,9 +83,8 @@ a:hover {
     border-left: black solid 1.5px;
 }
 .iconz-box {
-    display: flex;
-    justify-content: center;
-    margin-right: 15px;
+    display: none;
+
 }
 .iconz-box img {
     width: 35%;
@@ -122,6 +124,7 @@ footer {
     
 }
 .foot-box img {
+    display: none;
     width: 12%;
     height: 150px;
     border: 1px solid black;
@@ -169,9 +172,9 @@ footer {
 }
 .get-free {
     position: absolute;
-    top: 35%;
+    top: 31%;
     left: 16%;
-    font-size: 55px;
+    font-size: 35px;
     color: rgb(233, 228, 228);
     text-shadow: #863a6f 1px 0 10px;
     font-family: "EB Garamond";
@@ -187,7 +190,7 @@ footer {
 
 }
 .mix img {
-   width: 450px;
+   width: 250px;
    place-self: center;
    border-radius: 100%;
    -webkit-box-shadow: 6px 14.5px 30.5px 0px #9e4e86;
@@ -201,7 +204,7 @@ footer {
    align-items: center;
 }
 .mix-txt h2 {
-    font-size: 55px;
+    font-size: 25px;
     font-family: Pacifico;
     display: inline-block;
     position: relative;
@@ -227,8 +230,8 @@ footer {
 }
 .mix-txt button {
     border-radius: 20px;
-    width: 255px;
-    font-size: 32px;
+    width: 155px;
+    font-size: 20px;
     text-align: center;
     font-family: "EB Garamond";
     border-radius: 4px;
@@ -276,7 +279,7 @@ footer {
     align-items: center;
  }
 .count-txt h2 {
-     font-size: 55px;
+     font-size: 25px;
      font-family: Pacifico;
      display: inline-block;
      position: relative;
@@ -302,9 +305,9 @@ footer {
 }
 .count-txt h3{
     display: block;
-    font-size: 120px;
+    font-size: 80px;
     font-family: "EB Garamond";
-    margin: 50px 85px;
+    margin: 30px 35px;
 }
 .circle-txt {
     background-image: linear-gradient(#863A6F, #975c8d, #d989b5, #ffadbc, #ec8c8c);
@@ -333,10 +336,10 @@ footer {
 }
 .banner-sec h1 {
     position: absolute;
-    top: 70px;
+    top: 30px;
     left: 100px;
     font-family: Pacifico;
-    font-size: 55px;
+    font-size: 35px;
 }
 .banner-sec img {
     -webkit-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
@@ -354,10 +357,10 @@ footer {
 }
 .about-carl h1 {
     font-family: Pacifico;
-    font-size: 45px
+    font-size: 35px
 }
 .about-carl li {
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     font-family: "EB Garamond";
     font-weight: 550;
@@ -365,7 +368,7 @@ footer {
 }
 .info-box {
     background-color: #ffadbc;
-    width: 700px;
+    width: 400px;
     border-radius: 15px;
 }
 
@@ -378,7 +381,7 @@ footer {
     margin: 25px 0px;
 }
 .forecast h1 {
-    font-size: 55px;
+    font-size: 35px;
     text-align: center;
 }
 .cast-card {
@@ -390,7 +393,7 @@ footer {
 }
 .cast-card h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .card-box {
     display: flex;
@@ -418,10 +421,11 @@ footer {
     width: 23%;
 }
 .p-box {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "EB Garamond";
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .humid {
     align-self: center;
@@ -437,7 +441,7 @@ footer {
     color: #863a6f;
     -webkit-text-stroke: .5px;
     -webkit-text-stroke-color: #38172e77;
-    font-size: 55px;
+    font-size: 35px;
     grid-column: 1/3;
 
 }
@@ -453,11 +457,12 @@ form {
     flex-direction: column;
     background-color: #863a6f73;
     border-radius: 25px;
+    width: 550px;
 }
 label {
     font-size: 25px;
     margin: 0px 25px;
-    margin-top: 25px;
+    margin-top: 25px
 
 }
 input {
@@ -470,7 +475,7 @@ input {
     align-items: center;
     margin: 5px 25px;
     margin-bottom: 50px;
-
+    width: 500px;
 }
 textarea {
     margin: 5px 25px;
@@ -481,7 +486,7 @@ textarea {
     align-self: center;
 }
 select {
-    font-size: 28px;
+    font-size: 18px;
     align-self: center;
 }
 .submit {
@@ -493,12 +498,13 @@ select {
     margin-left: 260px;
 }
 .nutrition-box {
-    grid-column: 2/3;
+    grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 25px;
     justify-items: center;
+    grid-row: 3/4;
 }
 .nutrition-facts-carbo {
     grid-column: 1/2;
@@ -546,7 +552,7 @@ select {
     margin-left: 46px;
 }
 .thanks-box {
-    grid-column: 1/3;
+    grid-column: 1/2;
     align-self: center;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -561,5 +567,96 @@ select {
 .thanks-box h2 {
     margin: 25px;
     font-family: Pacifico;
-    
+}
+.thanks-box h3 {
+    margin: 25px;
+
+}
+
+/*------------------------------------------------------ About Us Page ----------------------------------------------------------------------------*/
+.history {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eb98c5;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+    width: 350px;
+    top: 10%;
+    left: 15%;
+}
+.history p {
+    margin: 8px;
+    font-size: 15px;
+}
+.history h2 {
+    margin-bottom: 3px;
+    font-family: Pacifico;
+    font-size: 20px;
+}
+.mission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 0px;
+    justify-content: space-evenly;
+}
+.mission img {
+    width: 200px;
+    height: 200px;
+    border-radius: 185px;
+    -webkit-box-shadow: 6px 14.5px 30.5px 0px #9e4e86;
+    -moz-box-shadow: 6px 14.5px 30.5px 0px #9e4e86;
+    box-shadow: 6px 14.5px 30.5px 0px #9e4e86;
+}
+.mission-box {
+    display: flex;
+    flex-direction: column;
+}
+.mission-box h3 {
+    font-size: 20px;
+    font-family: "EB Garamond";
+    margin-bottom: 8px;
+}
+.mission-box h2 {
+    font-size: 30px;
+    font-family: Pacifico;
+    color: #863a6f;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: #38172e77;
+    align-self: center;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ec8c8c;
+    align-items: center;
+   
+}
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+.contact-box h3 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: "EB Garamond";
+}
+.contact-box h2 {
+    font-size: 25px;
+    font-family: Pacifico;
+    margin-bottom: 0px;
+    margin-top: 8px;
+} 
+iframe {
+    margin: 50px;
+    border-radius: 25px;
+    width: 450px;
 }

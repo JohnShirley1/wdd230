@@ -1,0 +1,86 @@
+@media screen and (min-width: 700px) {
+    .nav-bar img {
+    width: 25%;
+    height: 125px;
+    }
+    .nav-bar h1 {
+    margin-left: 75px;
+    font-size: 25px;
+    }
+    .navigation {
+        flex-direction: row;
+        padding-right: 25px;
+        
+    }
+    a {
+        font-size: 20px;
+    }
+    .iconz-box img {
+        width: 70px;
+        height: 70px;
+    }
+    .get-free {
+    font-size: 55px;
+    }
+    .mix img {
+        width: 350px;
+    }
+    .mix-txt h2 {
+        font-size: 45px;
+    }
+    .mix-txt button {
+        font-size: 30px;
+    }
+    .count-txt h2 {
+        font-size: 45px;
+    }
+    .count-txt h3 {
+        font-size: 120px;
+        margin: 50px 75px;
+    }
+    .foot-box img {
+        display: flex;
+    }
+    .banner-sec h1 {
+        top: 70px;
+        font-size: 55px;
+    }
+    .about-carl h1 {
+        font-size: 45px
+    }
+    .about-carl li {
+        font-size: 30px;
+    }
+    .info-box {
+        width: 700px;
+    }
+    .forecast h1 {
+        font-size: 55px;
+    }
+    .cast-card h2 {
+        font-size: 45px;
+    }
+    .p-box {
+        font-size: 30px;
+    }
+    .fresh-title {
+        font-size: 55px;
+    }
+    .history {
+        width: 500px;
+        top: 15%;
+        left: 20%;
+    }
+    .mission-box h3 {
+        font-size: 30px;
+    }
+    .mission-box h2 {
+        font-size: 40px;
+    }
+    .mission img {
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+    
