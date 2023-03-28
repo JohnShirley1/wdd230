@@ -10,4 +10,9 @@ const getWeather = async () => {
     document.querySelector('#condition').textContent =  data.currentConditions.conditions;
     document.querySelector('#weathericon').src = image;
     document.querySelector('#weathericon').alt= data.currentConditions.conditions + ' icon';
-}
+    document.querySelector('#day1').textContent = data.currentConditions.days=0;
+
+    // let day2 = data.currentConditions.datetimeEpoch;
+    // document.querySelector('#day2').textContent = day1 + 86400
+};
+getWeather();
