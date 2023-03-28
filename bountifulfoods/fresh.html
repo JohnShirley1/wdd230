@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script defer src="jscripts/modifieddate.js"></script>
+    <script defer src="jscripts/orederdetails.js"></script>
+
 
 </head>
 <body>
@@ -46,7 +48,7 @@
                     <input id="phone" type="text" name="phone" required>
                     <label id="choose3fruit" for="choose3fruit">Pick Three Fruit!</label>
                     <div class="pick-box">
-                        <label for="fruit1"></label> <!----------------------------------------Fruit3 Drop Down -->
+                        <label for="fruit1"></label> <!----------------------------------------Fruit1 Drop Down -->
                         <select name="fruit1" id="fruit1">
                         <option value="apple">Apple</option>
                         <option value="apricot">Apricot</option>
@@ -63,8 +65,8 @@
                         <option value="raspberry">Raspberry</option>
                         <option value="mango">Mango</option>
                         </select>
-                        <label for="fruit2"></label> <!----------------------------------------Fruit3 Drop Down -->
-                        <select name="fruit1" id="fruit1">
+                        <label for="fruit2"></label> <!----------------------------------------Fruit2 Drop Down -->
+                        <select name="fruit2" id="fruit2">
                         <option value="raspberry">Raspberry</option>
                         <option value="apricot">Apricot</option>
                         <option value="blackberry">Blackberry</option>
@@ -81,7 +83,7 @@
                         <option value="mango">Mango</option>
                         </select>
                          <label for="fruit3"></label> <!----------------------------------------Fruit3 Drop Down -->
-                        <select name="fruit1" id="fruit1">
+                        <select name="fruit3" id="fruit3">
                         <option value="mango">Mango</option>
                         <option value="apricot">Apricot</option>
                         <option value="blackberry">Blackberry</option>
@@ -101,7 +103,7 @@
                     <label for="instructions">Any Special Instrustions?</label>
                     <textarea name="instructions" id="instructions" cols="6" rows="10"></textarea>
                     <input type="hidden" name="todaydate" value="CurrentDate">
-                    <input class="submit" type="submit" value="submit">
+                    <input onclick="notify()" class="submit" type="submit" value="submit">
                 </form>
             </div>
     
@@ -154,7 +156,11 @@
     
             <div class="thanks-box">
                 <h2>Thank you for your Order</h2>
-                <h3>Proccessed on **INPUT Curent Date**</h3>
+                <h3 id="name1"></h3>
+                <h3 id="email1"></h3>
+                <h3 id="phone1"></h3>
+                <h3 id="instruct1"></h3>
+                <h3>Proccessed on <span id="date1"></span></h3>
             </div>
         </div>
 

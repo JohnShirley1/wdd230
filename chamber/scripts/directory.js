@@ -44,7 +44,7 @@ fetch('https://johnshirley1.github.io/wdd230/chamber/jsons/data.json')
   const cardView = document.querySelector('#cardview');
   listView.addEventListener('click', clearCards);
   cardView.addEventListener('click', clearList);
-//   to add list
+ //   to add list
 function clearCards() {
   let div = document.createElement('div');
   div.classList.add('myDynamicTable');
