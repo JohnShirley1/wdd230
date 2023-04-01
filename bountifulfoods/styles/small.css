@@ -565,6 +565,20 @@ select {
     -moz-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
     box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
 }
+/* .thanks-box2 {
+    display: block;
+    grid-column: 1/2;
+    align-self: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-self: center;
+    background-color: #eb98c5;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 15px 40px 0px rgba(0,0,0,0.75);
+} */
 .thanks-box h2 {
     margin: 25px;
     font-family: Pacifico;

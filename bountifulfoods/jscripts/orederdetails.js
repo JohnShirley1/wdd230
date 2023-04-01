@@ -1,20 +1,33 @@
-function notify() {
-    document.querySelector('.thanks-box').getElementsByClassName.display = "block"
 
-    let name = document.querySelector('.name');
-    let email = document.querySelector('.email');
-    let phone = document.querySelector('.phone');
-    let instr = document.querySelector('#instructions')
+document.querySelector('#submit').addEventListener("click", notify);
+
+
+function notify() {
+    let name = document.querySelector('#name1').value;
+    let email = document.querySelector('#email').value;
+    let phone = document.querySelector('#phone').value;
+    // let instr = document.querySelector('#instructions').value;
     let today = new Date().toJSON().slice(0, 10);
-    console.log(name)
-    console.log(email)
-    console.log(phone)
-    console.log(instr)
-    console.log(today)
-    document.querySelector('#name1') = name;
-    document.querySelector('#email1') = email;
-    document.querySelector('#phone1') = phone;
-    document.querySelector('#instruct1') = instr;
-    document.querySelector('#date1') = today;
+
+    if(!localStorage.getItem('counter')) {
+        localStorage.setItem('counter', '1')
+    } else {
+        localStorage.setItem('counter', localStorage.getItem('counter'));
+        let counter = Number(localStorage.getItem('counter'));
+        localStorage.setItem('counter', ++counter);
+        console.log(counter);
+    };
+    
+    document.querySelector('.thanks-box').style.display = "block";
+    // document.querySelector('.thanks-box').classList.add('thanks-box2');
+    // document.querySelector('.thanks-box2').classList.remove('thanks-box');
+   
+    document.querySelector('#name2').textContent = name;
+    document.querySelector('#email2').textContent = email;
+    document.querySelector('#phone2').textContent = phone;
+    // document.querySelector('#instr2').textContent = instr;
+    document.querySelector('#today2').textContent = today;
     
 };
+
+

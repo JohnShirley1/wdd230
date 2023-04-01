@@ -40,8 +40,8 @@
             <h1 class="fresh-title">Keep it Fresh and Mix it Your Way!</h1>
             <div class="form-box">
                 <form method="get" >
-                    <label for="name">Name:*</label>
-                    <input id="name" type="text" name="name" required>
+                    <label for="name1">Name:*</label>
+                    <input id="name1" type="text" name="name1" required>
                     <label for="email">Email:*</label>
                     <input id="email" type="text" name="email" required>
                     <label for="phone">Phone:*</label>
@@ -103,8 +103,8 @@
                     <label for="instructions">Any Special Instrustions?</label>
                     <textarea name="instructions" id="instructions" cols="6" rows="10"></textarea>
                     <input type="hidden" name="todaydate" value="CurrentDate">
-                    <input onclick="notify()" class="submit" type="submit" value="submit">
-                    <button onclick="notify()" class="submit"></button>
+                    <input  id="submit" type="submit" value="submit">
+                    <!-- <button onclick="notify()" class="submit"></button> -->
                 </form>
             </div>
     
@@ -157,11 +157,11 @@
     
             <div class="thanks-box">
                 <h2>Thank you for your Order</h2>
-                <h3 id="name1"></h3>
-                <h3 id="email1"></h3>
-                <h3 id="phone1"></h3>
-                <h3 id="instruct1"></h3>
-                <h3>Proccessed on <span id="date1"></span></h3>
+                <h3 id="name2"></h3>
+                <h3 id="email2"></h3>
+                <h3 id="phone2"></h3>
+                <h3 id="instruct2"></h3>
+                <h3>Proccessed on <span id="today2"></span></h3>
             </div>
         </div>
 

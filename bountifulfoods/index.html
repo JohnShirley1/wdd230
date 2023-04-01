@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/large.css">
     <script defer src="/bountifulfoods/jscripts/modifieddate.js"></script>    
     <script defer src="/bountifulfoods/jscripts/weather-api.js"></script>
+    <script defer src="/bountifulfoods/jscripts/orederdetails.js"></script>
+
 </head>
 <body>
     <header>
@@ -37,7 +39,7 @@
 
         <section class="hero-sec">
             <img class="hero" src="images/berry-hero1-min.jpg" alt="Hero Image">
-            <h1 class="get-free">Buy <span class="smoothies-left">1</span> more Smoothies Until you get one FREE</h1>
+            <h1 class="get-free">Enjoy the Harvest</h1>
         </section>
 
         <section class="mix">
@@ -52,7 +54,7 @@
             <div class="count-txt">
                 <h2>Your Smoothie Count</h2>
                 <div class="circle-txt">
-                    <h3 class="smoo-count">4</h3>
+                    <h3 id="smoo-count">0</h3>
                 </div>
             </div>
             <img src="images/3smoothies-min.jpg" alt="3 smoothies">
@@ -95,32 +97,32 @@
                 </div>
 
                 <div class="cast-card">
-                    <h2>Today</h2>
+                    <h2 id="day2">Today</h2>
                     <div class="w-box">
-                        <img class="weathericon" src="images/cloudy.png" alt="Weather Condition Icon">
+                        <img class="weathericon2" src="images/cloudy.png" alt="Weather Condition Icon">
                         <div class="circle">
-                            <h2 class="degree"><span class="temp"></span>&#176;F</h2>
+                            <h2 class="degree"><span class="temp2"></span>&#176;F</h2>
                         </div>
                     </div>
                     
                     <div class="p-box">
-                        <p >Weather Condition:    <span class="condition"></span></p>
-                        <p >Humidity:             <span class="humid"></span></p>
+                        <p >Weather Condition:    <span class="condition2"></span></p>
+                        <p >Humidity:             <span class="humid2"></span></p>
                     </div>
                 </div>
 
                 <div class="cast-card">
-                    <h2>Today</h2>
+                    <h2 id="day3">Today</h2>
                     <div class="w-box">
-                        <img class="weathericon" src="images/cloudy.png" alt="Weather Condition Icon">
+                        <img class="weathericon3" src="images/cloudy.png" alt="Weather Condition Icon">
                         <div class="circle">
-                            <h2 class="degree"><span class="temp"></span>&#176;F</h2>
+                            <h2 class="degree"><span class="temp3"></span>&#176;F</h2>
                         </div>
                     </div>
                     
                     <div class="p-box">
-                        <p >Weather Condition:    <span class="condition"></span></p>
-                        <p >Humidity:             <span class="humid"></span></p>
+                        <p >Weather Condition:    <span class="condition3"></span></p>
+                        <p >Humidity:             <span class="humid3"></span></p>
                     </div>
                 </div>
 
